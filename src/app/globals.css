@@ -9,6 +9,12 @@
 
 
 
+/* In styles/globals.css */
+.bg-bannerImg {
+  background-image: url('/banner.png');
+}
+
+
 @media (prefers-color-scheme: dark) {
   :root {
    

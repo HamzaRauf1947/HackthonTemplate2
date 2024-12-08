@@ -64,9 +64,8 @@ const NavAbout = () => {
                 <li><Link href="/About">About Us</Link></li>
                 <li><Link href="/ProductListing">Product Listing</Link></li>
                 <li><Link href="/ShoppingBasket">Shopping Basket</Link></li>
-                <li><Link href="">Crockery</Link></li>
-                <li><Link href="">Tableware</Link></li>
-                <li><Link href="">Cutlery</Link></li>
+                <li><Link href="/ProductListings">Product Listings</Link></li>
+              
             </ul>
     </>
   )

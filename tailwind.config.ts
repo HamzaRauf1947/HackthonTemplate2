@@ -22,7 +22,11 @@ const config: Config = {
         clash:["var(--font-clash)"],
         satoshi:["var(--font-satoshi)"],
       
+      },
+      backgoundImage:{
+        bannerImg:"url('/banner.png')",
       }
+
     },
   },
   plugins: [],
