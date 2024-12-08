@@ -1,7 +1,5 @@
 import React from 'react'
 import NavbarTop from '../component/NavbarTop'
-import Navbar from '../component/Navbar'
-import NavAbout from '../component/NavAbout'
 import Image from 'next/image'
 import Link from 'next/link'
 import Whatmakes from '../component/Whatmakes'
@@ -17,13 +15,13 @@ const page = () => {
                 </div>
 
                 <ul className="w-full md:flex items-center justify-center gap-[32px] text-lightPurple hidden">
-                    <li><Link href="/">Plant pots</Link></li>
-                    <li><Link href="/">Ceramics</Link></li>
-                    <li><Link href="/">Tables</Link></li>
-                    <li><Link href="/">Chairs</Link></li>
-                    <li><Link href="/">Crockery</Link></li>
-                    <li><Link href="/">Tableware</Link></li>
-                    <li><Link href="/">Cutlery</Link></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/About">About Us</Link></li>
+                <li><Link href="/ProductListing">Product Listing</Link></li>
+                <li><Link href="/ShoppingBasket">Shopping Basket</Link></li>
+                <li><Link href="">Crockery</Link></li>
+                <li><Link href="">Tableware</Link></li>
+                <li><Link href="">Cutlery</Link></li>
 
                 </ul>
 
@@ -138,9 +136,9 @@ const page = () => {
                             <p>Amount:</p>
                             <div className='flex items-center justify-center sm:w-[122px] w-full max-w-7xl h-[46px] bg-lightGray'>
                             <div className=' flex items-center gap-3'>
-                                <button className='text-darkPurple'><Link href="/">-</Link></button>
+                                <button className='text-darkPurple'><Link href="/#">-</Link></button>
                                 <p className='text-textp'>1</p>
-                                <button className='text-darkPurple'><Link href="/">+</Link></button>
+                                <button className='text-darkPurple'><Link href="/#">+</Link></button>
                             </div>
                             </div>
 
@@ -148,7 +146,7 @@ const page = () => {
 
 
                         <button className='bg-darkPurple text-white sm:w-[143px] w-full h-[56px]'>
-                            <Link href="/">Add to cart</Link>
+                            <Link href="/#">Add to cart</Link>
                         </button>
 
 

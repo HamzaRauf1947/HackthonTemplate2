@@ -19,7 +19,7 @@ const About = () => {
                 <div className="w-full max-w-[1250px] flex lg:flex-row flex-col lg:gap-0 gap-[40px] items-center justify-between mt-[88px] lg:mb-[89px] mb-[32px]">
                     <h1 className="md:text-[36px] text-[32px]  text-darkPurple">A brand built on the love of craftmanship,<br />quality and outstanding customer service</h1>
 
-                    <button className="flex justify-center items-center lg:w-[192px] w-full  h-[56px] text-darkPurple  bg-lightGray"><Link href="">View collection</Link></button>
+                    <button className="flex justify-center items-center lg:w-[192px] w-full  h-[56px] text-darkPurple  bg-lightGray"><Link href="#">View collection</Link></button>
                 </div>
 
             </div>
@@ -40,7 +40,7 @@ const About = () => {
 
                         <div className=" ">
 
-                            <button className="flex  justify-center items-center md:w-[170px] mt-[32px]  h-[56px] w-full bg-newColor/15"><Link href="">View collection</Link></button>
+                            <button className="flex  justify-center items-center md:w-[170px] mt-[32px]  h-[56px] w-full bg-newColor/15"><Link href="#">View collection</Link></button>
 
                         </div>
 
@@ -93,7 +93,7 @@ const About = () => {
                     </div>
 
                     <div className="w-full flex  items-center lg:mb-0 mb-[38px] ">
-                        <button className="flex justify-center items-center md:w-[170px] w-full   h-[56px] text-darkPurple  bg-lightGray"><Link href="">Get in touch</Link></button>
+                        <button className="flex justify-center items-center md:w-[170px] w-full   h-[56px] text-darkPurple  bg-lightGray"><Link href="#">Get in touch</Link></button>
 
 
                     </div>

@@ -1,5 +1,4 @@
-import Image from "next/image"
-import Navbar from "./Navbar"
+
 import { TbTruckDelivery } from "react-icons/tb"
 import { IoClose } from "react-icons/io5"
 

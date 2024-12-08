@@ -56,13 +56,13 @@ const Navbar = () => {
 
             {/* links */}
             <ul className="w-full md:flex items-center font-satoshi justify-center gap-[44px] mb-5 text-lightPurple hidden">
-                <li><Link href="/">Plant pots</Link></li>
-                <li><Link href="/">Ceramics</Link></li>
-                <li><Link href="/">Tables</Link></li>
-                <li><Link href="/">Chairs</Link></li>
-                <li><Link href="/">Crockery</Link></li>
-                <li><Link href="/">Tableware</Link></li>
-                <li><Link href="/">Cutlery</Link></li>
+                <li><Link href="/">Home</Link></li>
+                <li><Link href="/About">About Us</Link></li>
+                <li><Link href="/ProductListing">Product Listing</Link></li>
+                <li><Link href="/ShoppingBasket">Shopping Basket</Link></li>
+                <li><Link href="">Crockery</Link></li>
+                <li><Link href="">Tableware</Link></li>
+                <li><Link href="">Cutlery</Link></li>
             </ul>
 
       </>

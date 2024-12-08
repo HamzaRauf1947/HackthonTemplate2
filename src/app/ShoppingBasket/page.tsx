@@ -46,9 +46,9 @@ const page = () => {
                                         <p className=" text-[14px] font-satoshi">A timeless ceramic vase with<br />a tri color grey glaze.</p>
                                         <p className=" md:text-[18px] text-[16px] font-satoshi">£85</p>
                                         <div className=' flex md:hidden  items-center gap-[33px]'>
-                                <button className='text-BorderGrey'><Link href="/">-</Link></button>
+                                <button className='text-BorderGrey'><Link href="#">-</Link></button>
                                 <p className='text-textp'>1</p>
-                                <button className='text-BorderGrey'><Link href="/">+</Link></button>
+                                <button className='text-BorderGrey'><Link href="#">+</Link></button>
                             </div>
 
                                     </div>
@@ -59,9 +59,9 @@ const page = () => {
                        
                                      
                                      <div className=' lg:flex hidden    items-center gap-[33px]'>
-                             <button className='text-BorderGrey'><Link href="/">-</Link></button>
+                             <button className='text-BorderGrey'><Link href="#">-</Link></button>
                              <p className='text-textp'>1</p>
-                             <button className='text-BorderGrey'><Link href="/">+</Link></button>
+                             <button className='text-BorderGrey'><Link href="#">+</Link></button>
                          </div>
 
                              
@@ -87,9 +87,9 @@ const page = () => {
                                         <p className=" text-[14px] font-satoshi">Beautiful and simple this is<br />one for the classics</p>
                                         <p className=" md:text-[18px] text-[16px] font-satoshi">£125</p>
                                         <div className=' flex md:hidden  items-center gap-[33px]'>
-                                <button className='text-BorderGrey'><Link href="/">-</Link></button>
+                                <button className='text-BorderGrey'><Link href="#">-</Link></button>
                                 <p className='text-textp'>1</p>
-                                <button className='text-BorderGrey'><Link href="/">+</Link></button>
+                                <button className='text-BorderGrey'><Link href="#">+</Link></button>
                             </div>
 
                                     </div>
@@ -100,9 +100,9 @@ const page = () => {
                        
                                      
                                      <div className=' lg:flex hidden    items-center gap-[33px]'>
-                             <button className='text-BorderGrey'><Link href="/">-</Link></button>
+                             <button className='text-BorderGrey'><Link href="#">-</Link></button>
                              <p className='text-textp'>1</p>
-                             <button className='text-BorderGrey'><Link href="/">+</Link></button>
+                             <button className='text-BorderGrey'><Link href="#">+</Link></button>
                          </div>
 
                              
@@ -132,7 +132,7 @@ const page = () => {
                 </div>
                 <div className="flex items-center justify-end ">
                 <button className='bg-darkPurple text-white sm:w-[172px]  font-satoshi w-full mb-[48px] h-[56px]'>
-                <Link href="/">Go to checkout</Link>             </button>
+                <Link href="#">Go to checkout</Link>             </button>
                 </div>
                
 

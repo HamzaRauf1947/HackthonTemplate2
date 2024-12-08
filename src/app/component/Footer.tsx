@@ -1,7 +1,7 @@
-import Image from "next/image"
+
 import Link from "next/link"
-import { FaFacebookSquare, FaInstagram, FaInstagramSquare, FaLinkedin, FaPinterest, FaSkype, FaTwitter } from "react-icons/fa"
-import { RiLinkedinBoxFill } from "react-icons/ri"
+import { FaFacebookSquare, FaInstagram,  FaLinkedin, FaPinterest, FaSkype, FaTwitter } from "react-icons/fa"
+
 
 
 const Footer = () => {
@@ -41,7 +41,7 @@ const Footer = () => {
                     <div className="basis-[60%] flex sm:gap-[109px] gap-[40px] sm:flex-row flex-col">
                     <ul className="text-white text-[14px] space-y-3">
                         <li><Link className="text-[16px]" href="/">Our company</Link></li>
-                        <li><Link href="/">About us</Link></li>
+                        <li><Link href="/About">About us</Link></li>
                         <li><Link href="/">Vacancies</Link></li>
                         <li><Link href="/">Contact us</Link></li>
                         <li><Link href="/">Privacy</Link></li>
