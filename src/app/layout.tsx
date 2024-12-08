@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Footer from "./component/Footer";
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -12,6 +14,20 @@ const geistMono = localFont({
   variable: "--font-geist-mono",
   weight: "100 900",
 });
+
+const satoshi = localFont({
+  src: [{path:"./fonts/Satoshi-Regular.otf",weight:"400"},{path:"./fonts/Satoshi-Bold.otf",weight:"700"}],
+ 
+});
+
+const clash = localFont({
+  src: "./fonts/ClashDisplay-Variable.ttf",
+  variable: "--font-geist-mono",
+  weight: "100 900",
+});
+
+
+
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -26,9 +42,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${satoshi.className} ${clash.className} antialiased`}
       >
         {children}
+
+        <Footer/>
       </body>
     </html>
   );
